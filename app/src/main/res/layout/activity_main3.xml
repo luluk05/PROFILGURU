@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3"
+    android:background="@drawable/mendung">
+
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="285dp"
+        android:layout_height="69dp"
+        android:layout_margin="10sp"
+        android:gravity="center_horizontal"
+        android:text="BIODATA SISWANDONO HANTOYO PUTRO. S.S"
+        android:textColor="#FFFFFF"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.368" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="351dp"
+        android:layout_height="58dp"
+        android:layout_margin="10sp"
+        android:gravity="center_horizontal"
+        android:text="Nama Lengkap : SISWANDONO HANTOYO PUTRO. S.S"
+        android:textColor="#FFFFFF"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.583"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="337dp"
+        android:layout_height="54dp"
+        android:layout_margin="10sp"
+        android:gravity="center_horizontal"
+        android:text="NIP : 198004242009031004"
+        android:textColor="#FBF6F6"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.459"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.608" />
+
+    <TextView
+        android:layout_width="261dp"
+        android:layout_height="102dp"
+        android:layout_margin="10sp"
+        android:gravity="center_horizontal"
+        android:text="Alamat : Perum Wijaya Kusuma 2 RT 07/ RW 05"
+        android:textColor="#FAF5F5"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.723" />
+
+    <TextView
+        android:layout_width="347dp"
+        android:layout_height="77dp"
+        android:layout_margin="10sp"
+        android:gravity="center_horizontal"
+        android:text="Tempat/Tanggal lahir : Demak, 24 April 1980"
+        android:textColor="#F6F4F4"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.824" />
+
+    <TextView
+        android:layout_width="366dp"
+        android:layout_height="62dp"
+        android:layout_margin="10sp"
+        android:gravity="center_horizontal"
+        android:text="Guru Mapel : Bahasa Indonesia"
+        android:textColor="#F4F1F1"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.644"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.917" />
+
+    <TextView
+        android:layout_width="366dp"
+        android:layout_height="62dp"
+        android:layout_margin="10sp"
+        android:gravity="center_horizontal"
+        android:text="Email : sisyoyok9@gmail.com"
+        android:textColor="#F4F1F1"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.992" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="253dp"
+        android:layout_height="193dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.05"
+        app:srcCompat="@drawable/paksis" />
+
+</android.support.constraint.ConstraintLayout>
